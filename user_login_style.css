@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #fff !important;
+}
+
+
+.container {
+  /* display: none; */
+  background: #fff;
+  width: 410px;
+  padding: 10px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  margin-top: 25px;
+  border-radius: 5px;
+  height: 540px;
+}
+
+.container .text {
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.container form {
+  margin-top: 20px;
+}
+
+.container form .data {
+  height: 45px;
+  width: 100%;
+  /* margin: 10px; */
+}
+
+form .data label {
+  font-size: 18px;
+}
+
+form .data input {
+  height: 100%;
+  width: 100%;
+  padding-left: 5px;
+  font-size: 13px;
+  border: 1px solid silver;
+  border-radius: 4px;
+}
+
+form .data input:focus {
+  border-color: #3498db;
+  border-bottom-width: 2px;
+}
+
+/* form .forgot-pass {
+  margin-top: -8px;
+}
+
+form .forgot-pass a {
+  color: #3498db;
+  text-decoration: none;
+} */
+
+/* div#forgot-pass {
+  padding: 10px;
+  margin-top: 20px;
+} */
+
+form .btn {
+  margin: 30px 0;
+  height: 45px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  display:flex;
+  justify-content: center;
+}
+
+form .btn .inner {
+  height: 100%;
+  width: 300%;
+  position: absolute;
+  left: -100%;
+  z-index: -1;
+  background: #fff;
+  transition: all 0.4s;
+}
+
+form .btn:hover .inner {
+  left: 0;
+}
+
+form .btn button {
+    height: 100%;
+    width: 100%;
+    background: blue;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+form .signup-link {
+  text-align: center;
+}
+
+form .signup-link a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+div#forgot-pass {
+  /* margin: 3px; */
+  padding: 1px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+form .signup-link a:hover {
+  text-decoration: underline;
+}
+
+
+div#header_input_title {
+  display: flex;
+  justify-content: center;
+}
